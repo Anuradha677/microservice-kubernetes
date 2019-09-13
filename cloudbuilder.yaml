@@ -1,6 +1,6 @@
 steps:
 # Build the latest version.
-- name: 'mvn'
+- name: 'gcr.io/cloud-builders/mvn'
   args: ['clean', 'package']
   dir: ./microservice-kubernetes-demo
 - name: 'gcr.io/cloud-builders/docker'
