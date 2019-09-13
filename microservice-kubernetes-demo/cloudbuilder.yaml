@@ -1,7 +1,7 @@
 steps:
 # Build the latest version.
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['exec', './docker-build.sh']
+- name: 'ubuntu'
+  args: ['bash', './docker-build.sh']
   
 - name: 'gcr.io/cloud-builders/kubectl'
   args: ['apply', '-f', './microservices.yaml']
