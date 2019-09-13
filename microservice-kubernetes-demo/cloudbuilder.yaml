@@ -1,12 +1,14 @@
 steps:
 # Build the latest version.
-
+- name: 'ubuntu'
+  entrypoint: 'bash'
+  args: ['-c', './docker-build.sh']
   
 - name: 'gcr.io/cloud-builders/kubectl'
   args: ['apply', '-f', './microservices.yaml']
   env: ['CLOUDSDK_COMPUTE_ZONE=us-central1-a', 'CLOUDSDK_CONTAINER_CLUSTER=micro-cluster']
   
-# Add more power, and more time, for build
+# Add more power, and more time, for build  args: ['-c', './gradlew gate-web:installDist -x test']
 timeout: '3600s'
 options:
   machineType: 'N1_HIGHCPU_8'
