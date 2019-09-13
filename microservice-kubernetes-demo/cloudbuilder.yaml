@@ -1,6 +1,6 @@
 steps:
 # Build the latest version.
-- name: 'ubuntu'
+- name: 'gcr.io/cloud-builders/gcloud'
   entrypoint: 'bash'
   args: ['-c', './docker-build.sh']
   
