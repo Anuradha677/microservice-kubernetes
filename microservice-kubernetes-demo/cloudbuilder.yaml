@@ -1,0 +1,32 @@
+steps:
+# Build the latest version.
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '--tag=gcr.io/$PROJECT_ID/microservice-kubernetes-demo-apache', '.']
+  dir: ./apache/
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '--tag=gcr.io/$PROJECT_ID/microservice-kubernetes-demo-catalog', '.']
+  dir: ./microservice-kubernetes-demo-catalog/
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '--tag=gcr.io/$PROJECT_ID/microservice-kubernetes-demo-customer', '.']
+  dir: ./microservice-kubernetes-demo-customer/
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '--tag=gcr.io/$PROJECT_ID/microservice-kubernetes-demo-order', '.']
+  dir: ./microservice-kubernetes-demo-order/
+
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/microservice-kubernetes-demo-apache' ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/microservice-kubernetes-demo-catalog' ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/microservice-kubernetes-demo-customer' ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/microservice-kubernetes-demo-order' ]
+
+- name: 'gcr.io/cloud-builders/kubectl'
+  args: ['apply', '-f', './microservices.yaml']
+  env: ['CLOUDSDK_COMPUTE_ZONE=us-central1-a', 'CLOUDSDK_CONTAINER_CLUSTER=micro-cluster']
+  
+# Add more power, and more time, for build
+timeout: '3600s'
+options:
+  machineType: 'N1_HIGHCPU_8'
