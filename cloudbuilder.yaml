@@ -3,6 +3,7 @@ steps:
 - name: 'gcr.io/cloud-builders/mvn'
   args: ['clean', 'package']
   dir: ./microservice-kubernetes-demo
+  
 - name: 'gcr.io/cloud-builders/docker'
   entrypoint: 'bash'
   args: ['-c', './microservice-kubernetes-demo/docker-build.sh']
