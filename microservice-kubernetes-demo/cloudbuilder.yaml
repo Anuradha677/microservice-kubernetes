@@ -1,6 +1,6 @@
 steps:
 # Build the latest version.
-- name: 'gcr.io/cloud-builders/docker'
+- name: 'gcr.io/cloud-builders/ubuntu'
   args: ['bash', './docker-build.sh']
   
 - name: 'gcr.io/cloud-builders/kubectl'
