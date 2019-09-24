@@ -20,6 +20,7 @@ spec:
       containers:
       - image: gcr.io/virtual-core-252710/microservice-kubernetes-demo-apache:latest
         name: apache
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         resources: {}
@@ -48,6 +49,7 @@ spec:
     spec:
       containers:
       - image: gcr.io/virtual-core-252710/microservice-kubernetes-demo-catalog:latest
+        imagePullPolicy: Always
         name: catalog
         ports:
         - containerPort: 8080
@@ -77,6 +79,7 @@ spec:
     spec:
       containers:
       - image: gcr.io/virtual-core-252710/microservice-kubernetes-demo-customer:latest
+        imagePullPolicy: Always
         name: customer
         ports:
         - containerPort: 8080
@@ -106,6 +109,7 @@ spec:
     spec:
       containers:
       - image: gcr.io/virtual-core-252710/microservice-kubernetes-demo-order:latest
+        imagePullPolicy: Always
         name: order
         ports:
         - containerPort: 8080
