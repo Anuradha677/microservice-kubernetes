@@ -1,5 +1,5 @@
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/ItemRepository.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/web/CatalogController.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/Item.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/SpringRestDataConfig.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/CatalogApp.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/ItemRepository.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/Item.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/SpringRestDataConfig.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/web/CatalogController.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/main/java/com/ewolff/microservice/catalog/CatalogApp.java

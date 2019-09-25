@@ -18,7 +18,7 @@ spec:
         run: apache
     spec:
       containers:
-      - image: gcr.io/virtual-core-252710/microservice-kubernetes-demo-apache:latest
+      - image: gcr.io/example-practice-gcp/microservice-kubernetes-demo-apache:latest
         name: apache
         imagePullPolicy: Always
         ports:
@@ -48,7 +48,7 @@ spec:
         run: catalog
     spec:
       containers:
-      - image: gcr.io/virtual-core-252710/microservice-kubernetes-demo-catalog:latest
+      - image: gcr.io/example-practice-gcp/microservice-kubernetes-demo-catalog:latest
         imagePullPolicy: Always
         name: catalog
         ports:
@@ -78,7 +78,7 @@ spec:
         run: customer
     spec:
       containers:
-      - image: gcr.io/virtual-core-252710/microservice-kubernetes-demo-customer:latest
+      - image: gcr.io/example-practice-gcp/microservice-kubernetes-demo-customer:latest
         imagePullPolicy: Always
         name: customer
         ports:
@@ -108,7 +108,7 @@ spec:
         run: order
     spec:
       containers:
-      - image: gcr.io/virtual-core-252710/microservice-kubernetes-demo-order:latest
+      - image: gcr.io/example-practice-gcp/microservice-kubernetes-demo-order:latest
         imagePullPolicy: Always
         name: order
         ports:

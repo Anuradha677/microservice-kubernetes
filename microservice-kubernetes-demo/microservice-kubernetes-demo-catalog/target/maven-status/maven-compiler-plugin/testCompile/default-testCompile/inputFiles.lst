@@ -1,6 +1,6 @@
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/CatalogTestApp.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/cdc/CatalogClient.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/CatalogWebIntegrationTest.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/cdc/Item.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/RepositoryTest.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/cdc/CatalogConsumerDrivenContractTest.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/cdc/CatalogClient.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/CatalogTestApp.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/cdc/Item.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/RepositoryTest.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/CatalogWebIntegrationTest.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-catalog/src/test/java/com/ewolff/microservice/catalog/cdc/CatalogConsumerDrivenContractTest.java

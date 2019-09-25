@@ -1,5 +1,5 @@
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/SpringRestDataConfig.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/web/CustomerController.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/CustomerRepository.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/Customer.java
-/home/pradpinky/microservice-kubernetes-3/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/CustomerApp.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/SpringRestDataConfig.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/CustomerApp.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/web/CustomerController.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/Customer.java
+/home/pradpinky/microservice-kubernetes/microservice-kubernetes-demo/microservice-kubernetes-demo-customer/src/main/java/com/ewolff/microservice/customer/CustomerRepository.java
